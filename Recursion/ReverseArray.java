@@ -14,7 +14,7 @@ public class ReverseArray {
 
     }
 
-    void displayWithoutUsingNewArray(int arr[], int startIndex, int endIndex) {
+    public static void displayWithoutUsingNewArray(int arr[], int startIndex, int endIndex) {
         if (startIndex < endIndex) {
             int temp = arr[startIndex];
             arr[startIndex] = arr[endIndex];

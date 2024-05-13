@@ -1,4 +1,4 @@
-package Sorting;
+package Array.Easy;
 
 public class secondLargest {
     public static void main(String[] args) {
@@ -17,6 +17,8 @@ public class secondLargest {
                 secondLargest = largest;
                 largest = arr[i];
 
+            } else if (arr[i] > secondLargest && arr[i] != largest) {
+                secondLargest = arr[i];
             }
 
             if (smallest >= arr[i]) {
@@ -24,6 +26,8 @@ public class secondLargest {
 
                 secondSmallest = smallest;
                 smallest = arr[i];
+            } else if (arr[i] < secondSmallest && arr[i] != smallest) {
+                secondSmallest = arr[i];
             }
         }
 

@@ -1,4 +1,4 @@
-package ArrayBasic;
+package Array.Easy;
 
 public class isSorted {
     public static void main(String[] args) {
