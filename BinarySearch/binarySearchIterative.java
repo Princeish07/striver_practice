@@ -1,6 +1,6 @@
 package BinarySearch;
 
-public class binarySearch {
+public class binarySearchIterative {
 
     static int display(int arr[], int value) {
 
