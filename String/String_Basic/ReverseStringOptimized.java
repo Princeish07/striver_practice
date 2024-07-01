@@ -1,4 +1,4 @@
-package String_Basic;
+package String.String_Basic;
 
 public class ReverseStringOptimized {
     static private String result(String s) {
