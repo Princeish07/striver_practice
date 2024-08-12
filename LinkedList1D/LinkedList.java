@@ -140,8 +140,8 @@ public class LinkedList {
         // traverseLinkedList(newHead);
 
         // Remove element Insert element at mid
-        Node newHead = deleteValueAtMid(head, 2);
-        traverseLinkedList(newHead);
+        // Node newHead = deleteValueAtMid(head, 2);
+        // traverseLinkedList(newHead);
 
         // Node node = new Node(4, null);
         // Node node1 = new Node(3, node);
